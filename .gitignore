@@ -1,0 +1,35 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+crash.*.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Allow example variable files
+!terraform.tfvars.example
+
+# Terraform backend local files
+terraform-backend/.terraform/
+terraform-backend/*.tfstate
+terraform-backend/*.tfstate.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.*
+.aws/
